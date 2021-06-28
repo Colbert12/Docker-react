@@ -3,7 +3,7 @@ FROM node:alpine
 
 WORKDIR '/app'
 COPY package.json .
-RUN npm install terser@3.14.1 --save-dev
+RUN npm install 
  
 
 COPY . .
